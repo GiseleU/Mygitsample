@@ -1,9 +1,12 @@
+/* Code changes to the body and footer section*/
+
 body{
     
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
     background: color #f4f4f4;
+    min-height: 100vh;
 }
 
 /* Global */
@@ -166,6 +169,8 @@ ul#services{
 }
 
 footer{
+    position: sticky;
+    top: 100%
     padding: 20px;
     margin-top: 20px;
     color:#ffffff;
